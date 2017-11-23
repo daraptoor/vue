@@ -4,7 +4,7 @@
     <h2>Amit Essential Links</h2>
     <ul>
       <li><a href="/" target="">home</a></li>
-
+      <li><router-link to="about">Quick About</router-link></li>
     </ul>
 
   </div>

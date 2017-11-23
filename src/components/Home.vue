@@ -4,6 +4,7 @@
     <h2>Essential Links</h2>
     <ul>
       <li><a href="/about" target="">About</a></li>
+      <li><router-link to="about">Quick About</router-link></li>
     </ul>
 
   </div>
