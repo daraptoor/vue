@@ -14,10 +14,10 @@ export default {
   name: 'HelloWorld',
   metaInfo: {
       // if no subcomponents specify a metaInfo.title, this title will be used
-      title: '404 Page',
+  title: '404 Page',
       // all titles will be injected into this template
-      titleTemplate: '%s | My Awesome view'
-    },
+  titleTemplate: '%s | My Awesome view'
+  },
   data () {
     return {
       msg: 'Page Not Found'
