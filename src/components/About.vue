@@ -4,7 +4,7 @@
     <h2>Amit Essential Links</h2>
     <ul>
       <li><a href="/" target="">home</a></li>
-      <li><router-link to="about">Quick About</router-link></li>
+      <li><router-link to="/">Quick home</router-link></li>
     </ul>
 
   </div>
@@ -13,9 +13,15 @@
 <script>
 export default {
   name: 'Amit',
+  metaInfo: {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'About Page',
+      // all titles will be injected into this template
+      titleTemplate: '%s | My Awesome view'
+    },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to About PAge'
     }
   }
 }

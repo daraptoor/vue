@@ -1,6 +1,7 @@
 <template>
+
   <div class="hello">
-    <h1>{{ name }}</h1>
+    <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="/about" target="">About</a></li>
@@ -13,6 +14,12 @@
 <script>
 export default {
   name: 'HelloWorld',
+  metaInfo: {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'Home Page',
+      // all titles will be injected into this template
+      titleTemplate: '%s | My Awesome view'
+    },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
