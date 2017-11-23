@@ -1,6 +1,6 @@
 # web
 
-> web based project
+> Vue Base Framework For Your Project
 
 ## Build Setup
 
