@@ -15,10 +15,10 @@
 export default {
   name: 'HelloWorld',
   metaInfo: {
-      // if no subcomponents specify a metaInfo.title, this title will be used
-  title: 'Home Page',
-      // all titles will be injected into this template
-  titleTemplate: '%s | My Awesome view'
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Home Page',
+    // all titles will be injected into this template
+    titleTemplate: '%s | My Awesome view'
   },
   data () {
     return {

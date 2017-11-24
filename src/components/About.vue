@@ -14,9 +14,9 @@
 export default {
   name: 'Amit',
   metaInfo: {
-      // if no subcomponents specify a metaInfo.title, this title will be used
+    // if no subcomponents specify a metaInfo.title, this title will be used
     title: 'About Page',
-      // all titles will be injected into this template
+    // all titles will be injected into this template
     titleTemplate: '%s | My Awesome view'
   },
   data () {
